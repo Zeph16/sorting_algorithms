@@ -5,7 +5,7 @@
  * @list: the list
  */
 
-void insertion_sort_list(lintint_t **list)
+void insertion_sort_list(listint_t **list)
 {
 	listint_t *ptr, *tmp;
 
