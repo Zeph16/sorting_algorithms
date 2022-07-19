@@ -9,6 +9,9 @@ void bubble_sort(int *array, size_t size)
 	size_t i, n;
 	int tmp, swap;
 
+	if (array == NULL || size < 2)
+		return;
+
 	for (n = size, swap = 1; n > 0 && swap; n--)
 	{
 		swap = 0;
