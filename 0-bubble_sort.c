@@ -1,8 +1,8 @@
 #include "sort.h"
 /**
  * bubble_sort - bubble sorting algorithm in ascending order
- * @array - input array
- * @size - the size of the array
+ * @array: input array
+ * @size: the size of the array
  */
 void bubble_sort(int *array, size_t size)
 {
